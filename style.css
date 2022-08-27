@@ -38,6 +38,7 @@ header {
   border-top: groove rgb(255, 128, 192);
   padding: 10px;
   text-align: center;
+  font: bold 20px "Kosugi Maru", "Lucida Grande", "Lucida Sans Unicode",         "Lucida Sans", Tahoma, sans-serif, serif;
 }
 
 footer{
@@ -45,4 +46,5 @@ footer{
   border-top: groove rgb(255, 128, 192);
   padding: 10px;
   text-align: center;
+  font: bold 20px "Kosugi Maru", "Lucida Grande", "Lucida Sans Unicode",         "Lucida Sans", Tahoma, sans-serif, serif;
 }
