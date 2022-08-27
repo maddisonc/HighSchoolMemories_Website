@@ -2,3 +2,47 @@ html, body {
   height: 100%;
   width: 100%;
 }
+
+nav {
+  background: rgb(228, 215, 236);
+  border-top: groove rgb(164, 148, 252);
+  padding: 10px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  font: bold 20px "Kosugi Maru", "Lucida Grande", "Lucida Sans Unicode",         "Lucida Sans", Tahoma, sans-serif, serif;
+}
+
+a:link {
+    color: DarkBlue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: #a956a0;
+    font-size: 21px;
+}
+
+a:active {
+    color: blue;
+}
+
+
+header {
+  background: rgb(239, 207, 232);
+  border-top: groove rgb(255, 128, 192);
+  padding: 10px;
+  text-align: center;
+}
+
+footer{
+  background: rgb(239, 207, 232);
+  border-top: groove rgb(255, 128, 192);
+  padding: 10px;
+  text-align: center;
+}
