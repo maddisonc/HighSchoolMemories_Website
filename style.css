@@ -10,6 +10,14 @@ nav {
   text-align: center;
 }
 
+h2 {
+  font: 25px "Kosugi Maru", "Lucida Grande", "Lucida Sans Unicode",         "Lucida Sans", Tahoma, sans-serif, serif;
+}
+
+p {
+  font: lighter 15px "Kosugi Maru", "Lucida Grande", "Lucida Sans Unicode",         "Lucida Sans", Tahoma, sans-serif, serif;
+}
+
 a {
   text-decoration: none;
   font: bold 20px "Kosugi Maru", "Lucida Grande", "Lucida Sans Unicode",         "Lucida Sans", Tahoma, sans-serif, serif;
@@ -41,10 +49,15 @@ header {
   font: bold 20px "Kosugi Maru", "Lucida Grande", "Lucida Sans Unicode",         "Lucida Sans", Tahoma, sans-serif, serif;
 }
 
-footer{
+footer {
+  margin-top: 20px;
   background: rgb(239, 207, 232);
   border-top: groove rgb(255, 128, 192);
   padding: 10px;
   text-align: center;
-  font: bold 20px "Kosugi Maru", "Lucida Grande", "Lucida Sans Unicode",         "Lucida Sans", Tahoma, sans-serif, serif;
+  font: 20px "Kosugi Maru", "Lucida Grande", "Lucida Sans Unicode",         "Lucida Sans", Tahoma, sans-serif, serif;
+}
+
+
+homepics {
 }
