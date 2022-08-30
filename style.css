@@ -68,7 +68,23 @@ footer {
   font: 20px "Kosugi Maru", "Lucida Grande", "Lucida Sans Unicode",         "Lucida Sans", Tahoma, sans-serif, serif;
 }
 
+table, th, td {
+  border: 5px solid #feb4ee;
+  border-style: inset;
+  border-collapse: collapse;
+  font: 20px "Kosugi Maru", "Lucida Grande", "Lucida Sans Unicode",         "Lucida Sans", Tahoma, sans-serif, serif;
+}
 
-junior-year-pics.img {
-  width: 20px;
+th {
+  background-color: #cd97f2;
+}
+
+td {
+  background-color: #fcd6ff;
+  padding: 10px;
+  text-align: center;
+}
+
+table {
+  margin: auto;
 }
