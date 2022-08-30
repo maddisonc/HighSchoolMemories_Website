@@ -1,43 +1,53 @@
-html, body {
+html {
   height: 100%;
-  width: 100%;
+  /*width: 100%;*/
+  margin-left: 200px;
+}
+body {
+  /*width: 90%;*/
+  background: #fdf2ff;
 }
 
 nav {
-  background: rgb(228, 215, 236);
-  border-top: groove rgb(164, 148, 252);
-  padding: 10px;
-  text-align: center;
+  width: 190;
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+  left: 10px;
+  background: #f8e1fe;
+  overflow-x: hidden;
+  padding: 8px 0;
 }
 
 h2 {
-  font: 25px "Kosugi Maru", "Lucida Grande", "Lucida Sans Unicode",         "Lucida Sans", Tahoma, sans-serif, serif;
+  font: 25px "Kosugi Maru", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif, serif;
 }
 
 p {
-  font: lighter 15px "Kosugi Maru", "Lucida Grande", "Lucida Sans Unicode",         "Lucida Sans", Tahoma, sans-serif, serif;
+  font: lighter 15px "Kosugi Maru", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif, serif;
 }
 
 a {
   text-decoration: none;
-  font: bold 20px "Kosugi Maru", "Lucida Grande", "Lucida Sans Unicode",         "Lucida Sans", Tahoma, sans-serif, serif;
+  font: bold 20px "Kosugi Maru", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif, serif;
 }
 
 a:link {
-    color: DarkBlue;
+  color: DarkBlue;
+  margin: 10px;
 }
 
 a:visited {
-    color: purple;
+  color: purple;
 }
 
 a:hover {
-    color: #a956a0;
-    font-size: 21px;
+  color: #a956a0;
+  font-size: 21px;
 }
 
 a:active {
-    color: blue;
+  color: blue;
 }
 
 
@@ -60,4 +70,5 @@ footer {
 
 
 homepics {
+  align-content: center;
 }
