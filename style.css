@@ -2,10 +2,13 @@ html {
   height: 100%;
   /*width: 100%;*/
   margin-left: 200px;
+  background-image: url(images/pinkstarsbackground.gif);
 }
+
 body {
   /*width: 90%;*/
-  background: #fdf2ff;
+  background-color: #ffe5f7;
+  font: bold 20px "Kosugi Maru", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif, serif;
 }
 
 nav {
@@ -50,10 +53,9 @@ a:active {
   color: blue;
 }
 
-
 header {
-  background: rgb(239, 207, 232);
-  border-top: groove rgb(255, 128, 192);
+  background: rgb(219, 243, 255);
+  border-top: groove rgb(128, 193, 255);
   padding: 10px;
   text-align: center;
   font: bold 20px "Kosugi Maru", "Lucida Grande", "Lucida Sans Unicode",         "Lucida Sans", Tahoma, sans-serif, serif;
@@ -61,8 +63,8 @@ header {
 
 footer {
   margin-top: 20px;
-  background: rgb(239, 207, 232);
-  border-top: groove rgb(255, 128, 192);
+  background: rgb(255, 240, 184);
+  border-top: groove rgb(255, 238, 128);
   padding: 10px;
   text-align: center;
   font: 20px "Kosugi Maru", "Lucida Grande", "Lucida Sans Unicode",         "Lucida Sans", Tahoma, sans-serif, serif;
@@ -72,7 +74,7 @@ table, th, td {
   border: 5px solid #feb4ee;
   border-style: inset;
   border-collapse: collapse;
-  font: 20px "Kosugi Maru", "Lucida Grande", "Lucida Sans Unicode",         "Lucida Sans", Tahoma, sans-serif, serif;
+  font: 20px "Kosugi Maru", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif, serif;
 }
 
 th {
@@ -87,4 +89,9 @@ td {
 
 table {
   margin: auto;
+}
+
+dl {
+  padding: 20px;
+  font: 20px "Kosugi Maru", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif, serif;
 }
