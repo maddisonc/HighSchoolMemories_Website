@@ -95,3 +95,11 @@ dl {
   padding: 20px;
   font: 20px "Kosugi Maru", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif, serif;
 }
+
+.left {
+  margin-left: 300px;
+}
+
+.right {
+  margin-left: 600px;
+}
