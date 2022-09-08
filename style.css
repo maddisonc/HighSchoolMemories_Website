@@ -2,13 +2,14 @@ html {
   height: 100%;
   /*width: 100%;*/
   margin-left: 200px;
-  background-image: url(images/pinkstarsbackground.gif);
+  /*background-image: url(images/pinkstarsbackground.gif);*/
+  background: #F6F3EE;
 }
 
 body {
   /*width: 90%;*/
-  background-color: #ffe5f7;
-  font: bold 20px "Kosugi Maru", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif, serif;
+  background-color: #3B2A21;
+  font: 20px "Cinzel";
 }
 
 nav {
@@ -17,35 +18,38 @@ nav {
   z-index: 1;
   top: 20px;
   left: 10px;
-  background: #f8e1fe;
+  background: #CBC7B7;
   overflow-x: hidden;
   padding: 8px 0;
 }
 
 h2 {
-  font: 25px "Kosugi Maru", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif, serif;
+  font: 25px "Cinzel";
+  color: white;
 }
 
 p {
-  font: lighter 15px "Kosugi Maru", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif, serif;
+  font: 15px "Fraunces";
+  color: white;
 }
 
 a {
   text-decoration: none;
-  font: bold 20px "Kosugi Maru", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif, serif;
+  font: 20px "Cinzel";
 }
 
 a:link {
-  color: DarkBlue;
+  color: #3B2A21;
   margin: 10px;
 }
 
 a:visited {
-  color: purple;
+  color: #a44613;
 }
 
 a:hover {
-  color: #a956a0;
+  background-color: white;
+  color: black;
   font-size: 21px;
 }
 
@@ -54,46 +58,50 @@ a:active {
 }
 
 header {
-  background: rgb(219, 243, 255);
-  border-top: groove rgb(128, 193, 255);
-  padding: 10px;
+  background-image: url(images/beachbanner.jpg);
+  border-top: #8fa4ae;
+  padding: 100px;
   text-align: center;
-  font: bold 20px "Kosugi Maru", "Lucida Grande", "Lucida Sans Unicode",         "Lucida Sans", Tahoma, sans-serif, serif;
+  font: bold 20px "Cinzel";
+  color: white;
 }
 
 footer {
   margin-top: 20px;
-  background: rgb(255, 240, 184);
-  border-top: groove rgb(255, 238, 128);
+  background: #CBC7B7;
+  border-top: groove #b0ac9c;
   padding: 10px;
   text-align: center;
-  font: 20px "Kosugi Maru", "Lucida Grande", "Lucida Sans Unicode",         "Lucida Sans", Tahoma, sans-serif, serif;
+}
+
+footer h2 {
+  font: 25px "Cinzel";
+  color: #3B2A21;
 }
 
 table, th, td {
-  border: 5px solid #feb4ee;
+  border: 5px solid #c7a38f;
   border-style: inset;
   border-collapse: collapse;
-  font: 20px "Kosugi Maru", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif, serif;
+  font: 30px "Fraunces";
 }
 
 th {
-  background-color: #cd97f2;
+  background-color: #b18b77;
 }
 
 td {
-  background-color: #fcd6ff;
-  padding: 10px;
+  background-color: #946951;
+  padding: 8px;
   text-align: center;
+}
+
+td p {
+  font: 20px "Fraunces";
 }
 
 table {
   margin: auto;
-}
-
-dl {
-  padding: 20px;
-  font: 20px "Kosugi Maru", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif, serif;
 }
 
 .left {
@@ -103,3 +111,19 @@ dl {
 .right {
   margin-left: 600px;
 }
+
+dl {
+  padding: 20px;
+}
+
+dt {
+  font: 50px "Cinzel";
+  background: #ffffff;
+}
+
+dd {
+  font: 20px "Fraunces";
+  color: white;
+}
+
+/* Saved for later: https://www.canva.com/learn/website-color-schemes/ */
