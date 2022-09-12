@@ -104,12 +104,18 @@ table {
   margin: auto;
 }
 
+#divpic {
+ text-align: center; 
+}
+
 .left {
-  margin-left: 300px;
+  margin-right: 600px;
+  font: 30px "Fraunces";
 }
 
 .right {
   margin-left: 600px;
+  font: 30px "Fraunces";
 }
 
 dl {
