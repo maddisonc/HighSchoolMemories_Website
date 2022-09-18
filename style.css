@@ -1,4 +1,4 @@
-html {
+ html {
   height: 100%;
   /*width: 100%;*/
   margin-left: 200px;
@@ -21,6 +21,18 @@ nav {
   background: #CBC7B7;
   overflow-x: hidden;
   padding: 8px 0;
+}
+
+#homepics {
+  text-align: center;
+
+  border:2px solid #fff;
+  -moz-box-shadow: 10px 10px 5px #ccc;
+  -webkit-box-shadow: 10px 10px 5px #ccc;
+  box-shadow: 10px 10px 5px #ccc;
+  -moz-border-radius:25px;
+  -webkit-border-radius:25px;
+  border-radius:25px;
 }
 
 h2 {
@@ -59,7 +71,11 @@ a:active {
 
 header {
   background-image: url(images/beachbanner.jpg);
+  background-repeat: no-repeat;
+  margin-top: -10px;
+  background-size: 100%;
   border-top: #8fa4ae;
+  padding-top: 0px;
   padding: 100px;
   text-align: center;
   font: bold 20px "Cinzel";
@@ -72,6 +88,9 @@ footer {
   border-top: groove #b0ac9c;
   padding: 10px;
   text-align: center;
+
+  position: fixed; 
+  left: 0; bottom: 0; right: 0; 
 }
 
 footer h2 {
