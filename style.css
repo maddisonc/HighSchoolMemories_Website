@@ -1,7 +1,7 @@
  html {
   height: 100%;
   /*width: 100%;*/
-  margin-left: 200px;
+  margin-left: 350px;
   /*background-image: url(images/pinkstarsbackground.gif);*/
   background: #F6F3EE;
 }
@@ -21,6 +21,8 @@ nav {
   background: #CBC7B7;
   overflow-x: hidden;
   padding: 8px 0;
+  border: groove #b0ac9c;
+  border-radius:5px;
 }
 
 #whiteh2 {
