@@ -115,7 +115,8 @@ footer h2 {
 }
 
 #summerbody {
-  background-color: white;
+  background-color: #e6e3db;
+  text-align: center;
 }
 
 
@@ -173,6 +174,15 @@ dt {
 dd {
   font: 30px "Fraunces";
   color: black;
+}
+
+ul {
+  list-style-image: url(images/heartsmaller.gif);
+}
+
+li {
+  background: #ecc7bd;
+  padding: 2px;
 }
 
 /* Saved for later: https://www.canva.com/learn/website-color-schemes/ */
