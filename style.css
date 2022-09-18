@@ -29,14 +29,13 @@ nav {
 
 #homepics {
   text-align: center;
+}
 
+#box {
   border:2px solid #fff;
-  -moz-box-shadow: 10px 10px 5px #ccc;
-  -webkit-box-shadow: 10px 10px 5px #ccc;
-  box-shadow: 10px 10px 5px #ccc;
-  -moz-border-radius:25px;
-  -webkit-border-radius:25px;
-  border-radius:25px;
+  border-radius:5px;
+  box-shadow: 5px 10px #fff;
+  padding: 5px;
 }
 
 h2 {
@@ -44,7 +43,7 @@ h2 {
 }
 
 p {
-  font: 15px "Fraunces";
+  font: 30px "Fraunces";
   color: white;
 }
 
@@ -109,16 +108,14 @@ footer h2 {
   color: #000000ff;
 }
 
-
 #yearbody {
-  background-color: #AE826A;
+  background-color: #cfb5a7;
 }
 
 #summerbody {
-  background-color: #e6e3db;
+  background-color: #e8ccae;
   text-align: center;
 }
-
 
 table, th, td {
   border: 5px solid #c7a38f;
@@ -181,8 +178,15 @@ ul {
 }
 
 li {
-  background: #ecc7bd;
+  background: #deb4a9;
   padding: 2px;
+  font: 30px "Fraunces";
+}
+
+img, video {
+  border:5px solid #fff;
+  border-radius:5px;
+  padding: 5px;
 }
 
 /* Saved for later: https://www.canva.com/learn/website-color-schemes/ */
