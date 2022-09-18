@@ -23,6 +23,10 @@ nav {
   padding: 8px 0;
 }
 
+#whiteh2 {
+  color:white;
+}
+
 #homepics {
   text-align: center;
 
@@ -36,8 +40,7 @@ nav {
 }
 
 h2 {
-  font: 25px "Cinzel";
-  color: white;
+  font: 40px "Cinzel";
 }
 
 p {
@@ -98,6 +101,24 @@ footer h2 {
   color: #3B2A21;
 }
 
+#dancesbody {
+  background-color: #e1ddd0;
+}
+
+#dancesbody.p {
+  color: #000000ff;
+}
+
+
+#yearbody {
+  background-color: #AE826A;
+}
+
+#summerbody {
+  background-color: white;
+}
+
+
 table, th, td {
   border: 5px solid #c7a38f;
   border-style: inset;
@@ -106,7 +127,7 @@ table, th, td {
 }
 
 th {
-  background-color: #b18b77;
+  background-color: #cdb5a7;
 }
 
 td {
@@ -130,11 +151,13 @@ table {
 .left {
   margin-right: 600px;
   font: 30px "Fraunces";
+  color: black;
 }
 
 .right {
   margin-left: 600px;
   font: 30px "Fraunces";
+  color: black;
 }
 
 dl {
@@ -143,12 +166,13 @@ dl {
 
 dt {
   font: 50px "Cinzel";
-  background: #ffffff;
+  color: white;
+  background: #3B2A21;
 }
 
 dd {
-  font: 20px "Fraunces";
-  color: white;
+  font: 30px "Fraunces";
+  color: black;
 }
 
 /* Saved for later: https://www.canva.com/learn/website-color-schemes/ */
