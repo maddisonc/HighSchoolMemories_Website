@@ -78,12 +78,13 @@ header {
   background-repeat: no-repeat;
   margin-top: -10px;
   background-size: 100%;
-  border-top: #8fa4ae;
   padding-top: 0px;
   padding: 100px;
   text-align: center;
   font: bold 20px "Cinzel";
   color: white;
+  border-bottom:5px groove #b0ac9c;
+  border-radius:5px;
 }
 
 footer {
@@ -239,4 +240,22 @@ iframe {
 
 #pdf {
   text-align: center;
+}
+
+#non_a_fmt {
+  font: 40px "Cinzel";
+}
+
+fieldset {
+  background-color: white;
+  margin: auto;
+  width: 60%;
+  border:5px groove #b0ac9c;
+  border-radius:5px;
+}
+
+#quizquestions, #choice, input, #quizoutput {
+  text-align: center;
+  color: black;
+  font: "Fraunces";
 }

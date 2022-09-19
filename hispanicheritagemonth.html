@@ -87,12 +87,68 @@
     <br><br><br><br>
 
   <div id="pdf">
-  <h2 align="center">House on Mango Street by Sandra Cisneros</h1>   
+  <h2 align="center">House on Mango Street by <a id="non_a_fmt" href="https://www.npr.org/templates/story/story.php?storyId=102900929">Sandra Cisneros</a></h1>   
   <iframe src="images/houseonmangost.pdf" width="60%" height="600px">         
   </iframe>
   </div>
 
-  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br>
+
+  <h1 align="center">Quiz</h1>
+    
+  <fieldset>
+      <form id="quiz">
+        <p id="quizquestions"><strong>1) Which of the following dishes is a soup?</strong><br></p>
+          <label>
+            <input id="choice" name="question1" type="radio" value="Pozole"> Pozole</label><br>
+          <label>
+            <input id="choice" name="question1" type="radio" value="Arroz con Leche">                 Arroz con Leche
+          </label><br>
+          <label>
+            <input id="choice" name="question1" type="radio" value="Concha"> Concha
+          </label><br>
+        
+
+        <p id="quizquestions"><strong>2) What does Día de los Muertos           celebrate?</strong><br></p>
+          <label>
+            <input id="choice" name="question2" type="radio" value="Children"> Children
+          </label><br>
+          <label>
+            <input id="choice" name="question2" type="radio" value="Flan"> Flan
+          </label><br>
+          <label>
+            <input id="choice" name="question2" type="radio" value="The lives of deceased relatives"> The lives of deceased relatives</label><br>
+        
+
+        <p id="quizquestions"><strong>3) What is Horchata?</strong><br></p>
+          <label>
+            <input id="choice" name="question3" type="radio" value="hibiscus iced tea"> A hibiscus iced tea
+          </label><br>
+          <label>
+            <input id="choice" name="question3" type="radio" value="A sweet rice milk drink"> A sweet rice milk drink</label><br>
+          <label>
+            <input id="choice" name="question3" type="radio" value="a round, striped sweet              bread roll"> a round, striped sweet bread roll
+          </label><br>
+
+        <br><br>
+        
+      <input id="quizoutput" type="button" value="Get Score" onclick="getScore(quiz)">
+        
+        <p id="quizoutput" align="center"><strong>Score: <input type="text" size="5" name="percentage"
+        disabled></strong></p>
+        
+        <p id="quizoutput" align="center">
+            <strong>Correct Answers:</strong>
+            <br>
+            <textarea id="quizoutput" name="solutions" wrap="virtual"  rows="5" cols="40" disabled>
+            </textarea>
+        </p>
+        
+        
+      </form>
+  </fieldset>
+    
+  <br><br><br><br><br><br><br><br><br><br><br><br><br>
 
   </div>
   
@@ -103,7 +159,7 @@
   page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
   teal, blue, blurple, magenta, pink!
   -->
-  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+  <script src="https://replit.com/public/js/replit-badge.js" theme="yellow" defer></script> 
 
   <footer>
     <h2>Maddison Chau, Advanced Java 2022</h2>
