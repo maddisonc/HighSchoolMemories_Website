@@ -119,6 +119,10 @@ footer h2 {
   text-align: center;
 }
 
+#clientbody {
+  background-color: #f2e3d2;
+}
+
 table, th, td {
   border: 5px solid #c7a38f;
   border-style: inset;
@@ -191,4 +195,39 @@ img, video {
   padding: 5px;
 }
 
-/* Saved for later: https://www.canva.com/learn/website-color-schemes/ */
+#letter {
+  margin: auto;
+  background-color: white;
+  width: 60%;
+  padding: 40px;
+  border:5px solid #000000;
+  border-radius:5px;
+}
+
+#letterheader, #title, #paratitle, #subtitle, #regtext {
+  color: black;
+}
+
+#letterheader {
+  font: 20px "Fraunces";
+}
+
+#title {
+  text-align: center;
+  font: 35px "Fraunces";
+}
+
+#paratitle {
+  text-align: left;
+  font: 33px "Fraunces";
+}
+
+#subtitle {
+  margin-left: 15px;
+  font: 30px "Fraunces";
+}
+
+#regtext {
+  margin-left: 25px;
+  font: 20px "Fraunces";
+}
